@@ -1,20 +1,44 @@
-body {
+body 
+{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
+
 #B-banner 
 {
     background-color: #c6fbff;
 }
+
 .login-section 
 {
-    width: 600px;
-    margin: 100px auto;
-    padding: 100px;
+    width: 650px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
     border: 1px solid #ccc;
     border-radius: 24px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
     background-color: #86c3fcc9;
+}
 
+.login-image 
+{
+    background-image: url(https://i.pinimg.com/564x/6e/b9/0e/6eb90ee6451a22bee98534642cec66c2.jpg);
+}
+
+.login-details
+{
+    padding-right: 24px;
+    text-align: center;
+    
 }
